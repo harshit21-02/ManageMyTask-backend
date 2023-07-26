@@ -25,9 +25,6 @@ SECRET_KEY = "django-insecure-5)o29dh$am!=8zjnvlk-+x!v#k7*mked3bqjmh24k*7-p4+2i-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -150,3 +147,5 @@ CORS_ALLOW_HEADERS = [
     'Origin',
     'User-Agent',
 ]
+
+ALLOWED_HOSTS = ['https://venerable-malasada-0d4401.netlify.app/','127.0.0.1']
