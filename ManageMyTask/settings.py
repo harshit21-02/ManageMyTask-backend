@@ -150,4 +150,8 @@ CORS_ALLOW_HEADERS = [
     'User-Agent',
 ]
 
-ALLOWED_HOSTS = ['https://venerable-malasada-0d4401.netlify.app/','127.0.0.1']
+ALLOWED_HOSTS = [
+    'https://venerable-malasada-0d4401.netlify.app/','127.0.0.1',
+    '.vercel.app',
+    'now.sh'
+    ]
